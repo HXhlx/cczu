@@ -1,6 +1,5 @@
-# 常州大学毕业设计 $\LaTeX$ 版
 此项目包含`cczu.cls`，`demo.tex`，`demo.pdf`三个文件。
-其中`cczu.cls`为作者设计的模板文件，`demo.tex`和`demo.pdf`为用于演示的 $\LaTeX$ 文件和PDF文件。
+其中`cczu.cls`为作者设计的模板文件，`demo.tex`和`demo.pdf`为用于演示的LaTex文件和PDF文件。
 
 此文件适用于常州大学学生，使用时需做以下工作：
 1. 下载`cczu.cls`
