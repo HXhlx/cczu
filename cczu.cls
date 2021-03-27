@@ -111,6 +111,7 @@
 \bibliographystyle{gbt7714-numerical}
 
 \makeatletter
+\newcommand{\stuid}[1]{\def\@stuid{#1}}% 学号
 \newcommand{\graduateyear}[1]{\def\@graduateyear{#1}} % 届
 \newcommand{\ctitle}[1]{\def\@ctitle{#1}} % 中文题目
 \newcommand{\etitle}[1]{\def\@etitle{#1}} % 英文题目
@@ -124,7 +125,7 @@
 \newcommand{\cczupage}{
     \begin{titlepage}
         {\bfseries
-            \zihao{5}\rightline{学号：\underline{17453128}}\vspace{0.5ex}
+            \zihao{5}\rightline{学号：\underline{\@stuid}}\vspace{0.5ex}
             \begin{center}
                 \zihao{0} 常~~州~~大~~学\vspace{0.5ex}\\
                 \zihao{0} 毕业设计\vspace{0.5ex}\\
